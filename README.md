@@ -26,36 +26,31 @@ In this homework, the goal was to utilize three smart contracts that would provi
     - It is important to remember that when you deploy the file you must not put an amount in the 'Value' portion in the 'Deploy & Run Transactions' section in Remix.
     - If you do this you will probably get this error, like I did many times before I figured it out.
 
-    ![Image of Error When Deploying with Amount]
-    (https://github.com/jtmcginley123/unit20/blob/master/screenshots/error.png)
+    ![Image of Error When Deploying with Amount](https://github.com/jtmcginley123/unit20/blob/master/screenshots/error.png)
 
 7. Make sure 'Contract' says 'AssociateProfitSplitter.sol ....'
 
 8. Add three addresses from Ganache. Make sure you do not put the address that is also the 'Account'. 
     - Your accounts would look something like this:
-    ![Image of Ganache Accounts Before Transaction]
-    (https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/ganache-accounts-before-transaction.png)
+    ![Image of Ganache Accounts Before Transaction](https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/ganache-accounts-before-transaction.png)
 
 9. Press 'Transact'. The following should happen:
     - Your transaction will connect with MetaMask and a transaction of 0 will show. Like this:
 
-    ![Image of Deployment]
-    (https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/deployment.png)
+    ![Image of Deployment](https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/deployment.png)
 
     - Click 'Confirm' to proceed.
     
 10. Next, you will complete an actual transaction that will split the Ether you send evenly three ways.
     - Your transaction should look something like this:
 
-    ![Image of Transaction]
-    (https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/transaction.png)
+    ![Image of Transaction](https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/transaction.png)
 
     - Click 'Confirm' to proceed.
 
 11. After you have confirmed the transaction in MetaMask, you should go over to Ganache to see that there was a transfer of funds.
     - Your Ganache accounts should look something like this:
 
-    ![Image of Ganache Accounts After Transaction]
-    (https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/transaction.png)
+    ![Image of Ganache Accounts After Transaction](https://github.com/jtmcginley123/unit20/blob/master/screenshots/AssociateProfitSplitter/transaction.png)
 
 12. You will repreat the same steps for the other two contracts. The difference will be in the amounts that split between accounts. 
